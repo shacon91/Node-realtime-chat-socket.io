@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+  </head>
+  <body>
+
+  		<div class="container">
+  			<a href="/" class="homeLink">Home</a>
+  			<a href="video" class="videoLink">Video</a>
+	   		<div id="chat">
+	   			<div id="title">Group Chat</div>
+          <div class="display">
+  	   			<div id="output"></div>
+            <div id="status"></div>
+          </div>
+	   			<input type="text" id="handler" placeholder="Your Name">
+				<textarea id="msg" placeholder="Write message....."></textarea>
+				<button id="send">Send</button>
+	   		</div>
+   		</div>
+
+   	<script src="javascripts/chat.js"></script>
+  </body>
+</html>
